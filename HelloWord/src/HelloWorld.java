@@ -8,9 +8,9 @@ public class HelloWorld {
     /**
      * Program entry point.
      *
-     * @param args command-line arguments
+     * @param cmdLineArgs command-line arguments
      * */
-    public static void main(String[] args){
-        System.out.println("Hello world!!!");
+    public static void main(String[] cmdLineArgs){
+        System.out.println("Hello world!!!" + cmdLineArgs[1] + cmdLineArgs.length);
     }
 }
